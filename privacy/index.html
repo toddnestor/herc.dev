@@ -10,6 +10,30 @@
     />
     <link rel="canonical" href="https://herc.dev/privacy/" />
     <link rel="stylesheet" href="/styles.css" />
+    <script>
+      (function (ss, ex) {
+        window.ldfdr =
+          window.ldfdr ||
+          function () {
+            (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
+          };
+        (function (d, s) {
+          var fs = d.getElementsByTagName(s)[0];
+          function ce(src) {
+            var cs = d.createElement(s);
+            cs.src = src;
+            cs.async = 1;
+            fs.parentNode.insertBefore(cs, fs);
+          }
+          ce(
+            "https://sc.lfeeder.com/lftracker_v1_" +
+              ss +
+              (ex ? "_" + ex : "") +
+              ".js"
+          );
+        })(document, "script");
+      })("YEgkB8lJ3Jp4ep3Z");
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -23,7 +47,7 @@
 
     <main class="legal">
       <h1>Privacy policy</h1>
-      <p class="meta">Last updated: August 18, 2026</p>
+      <p class="meta">Last updated: October 8, 2026</p>
 
       <p>
         Hercules Web Services (“we”, “us”) operates
@@ -33,9 +57,10 @@
 
       <h2>This website</h2>
       <p>
-        This site is a static brochure. We do not run analytics pixels, do not
-        set advertising cookies, and do not collect personal information through
-        forms on these pages. If you email
+        This site is a static brochure. We use Leadfeeder to record which
+        companies visit these pages. We do not set advertising cookies, and we
+        do not collect personal information through forms on these pages. If you
+        email
         <a href="mailto:todd@herc.dev">todd@herc.dev</a>, we use that
         correspondence to respond to you.
       </p>
